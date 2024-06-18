@@ -1,0 +1,9 @@
+spring:
+  data:
+    cassandra:
+      entity-base-package: com.cassandra_test.practise
+  cassandra:
+    keyspace-name: mykeyspace
+    contact-points: cassandra
+    port: 9042
+    schema-action: create_if_not_exists
